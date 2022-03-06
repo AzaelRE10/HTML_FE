@@ -1,0 +1,249 @@
+body {
+    font-family: sans-serif;
+    color: #494949;
+    margin: 0;
+}
+
+header {
+    background-color: pink;
+}
+
+.nav {
+    width: 80vw;
+    background-color: pink;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-lista {
+    list-style: none;
+    display: flex;
+}
+
+.lista-item {
+    margin-right: 20px;
+}
+
+.lista-item:last-child {
+    margin-right: 0;
+}
+
+.lista-item a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #494949;
+}
+
+.lista-item a:hover {
+    font-size: 19px;
+    text-decoration: underline;
+    color: #494949;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-titulo {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+main {
+    width: 95vw;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.titulo-bienvenidos {
+    font-size: 36px;
+    text-align: center;
+    color: #494949;
+    letter-spacing: 3px;
+    margin: 80px 0 50px 0;
+}
+
+.texto-principal {
+    text-align: center;
+    color: #494949;
+    letter-spacing: 3px;
+}
+
+.img-logo {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+}
+
+.titulo-menu {
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta-menu {
+    height: 240px;
+    width: 350px;
+    background-color: rgb(245, 219, 186);
+    font-weight: 600;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.tarjeta-menu:hover {
+    transform: scale(1.05);
+    background-color: pink;
+}
+
+.tarjeta-menu p, a {
+    margin: 0;
+    color: #494949;
+}
+
+.img-tarjeta-menu {
+    width: 120px;
+}
+
+/*CSS PARA PAGINA DE PEDIDOS*/
+
+form {
+    border: 1px solid rgb(245, 219, 186);
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+form:hover {
+    background-color: pink;
+}
+
+.titulo-pedidos {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.titulo-pide {
+    text-align: center;
+}
+
+.datos-pedido {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.datos-personales label {
+    display: block;
+}
+
+.datos-personales input {
+    width: 300px;
+}
+
+.datos-personales {
+    display: flex;
+    flex-direction: column;
+}
+
+.pasteles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pastel-personalizado {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-enviar {
+    align-self: center;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(245, 219, 186);
+    color: #494949;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 50px 0 20px 0;
+}
+
+.btn-enviar:hover {
+    transform: scale(1.05);
+}
+
+
+/*CSS PARA PAGINA DEL PASTELERO ADMINISTRADOR*/
+
+#inventario table {
+    margin: 0 auto;
+}
+
+#inventario table,
+th,
+td {
+    border: 1px solid #b0b1d9;
+    border-collapse: collapse;
+}
+
+th {
+    min-width: 300px;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-color: pink;
+    color: #494949;
+}
+
+footer p {
+    margin-right: 10px;
+}
+
+footer .contenedor {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.contactos {
+    display: flex; 
+    justify-content: space-between;
+
+}.mensajefinal {
+    font-weight: 600; 
+    font-size: 20px;
+    display: flex; 
+    justify-content: center;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+
+    header,
+    body, footer {
+        width: 100%;
+        height: auto;
+    }
+}

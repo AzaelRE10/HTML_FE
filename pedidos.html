@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="pastelmania.png">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="estilos.css">
+    <title>PastelMania</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="logo">
+                <img src="pastelmania.png" alt="Logo PastelMania" height="150px">
+                <p class="logo-titulo">PASTELMANIA</p>
+
+            </div>
+            <ul class="nav-lista">
+                <li class="lista-item"><a href="index.html">INICIO</a></li>
+                <li class="lista-item"><a href="pedidos.html">PEDIDOS</a></li>
+                <li class="lista-item"><a href="admin.html">ADMINISTRADOR</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1 class="titulo-bienvenidos">Bienvenidos a la PastelMania</h1>
+            <p class="texto-principal">Los mejores pasteles que te dejaran con antojo de más!!</p>
+            <img class="img-logo" src="pastelmania.png" alt="">
+        </section>
+
+        <section id="pedidos">
+            <h2 class="titulo-pedidos">HAZ TU PEDIDO</h2>
+            <form action="">
+                <h3 class="titulo-pide">PIDE TU PASTEL A TU GUSTO</h3>
+                <p style="font-weight: bold; margin: 30px 0;">LLENA CON TUS DATOS</p>
+                <div class="datos-pedido">
+                    <div class="datos-personales">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre">
+                    </div>
+                    <div class="datos-personales">
+                        <label for="telefono">Telefono de casa</label>
+                        <input type="text" id="telefono">
+                    </div>
+                    <div class="datos-personales">
+                        <label for="celular">Celular</label>
+                        <input type="text" id="celular">
+                    </div>
+                    <div class="datos-personales">
+                        <label for="correo-electronico">Correo electronico</label>
+                        <input type="text" id="correo-electronico">
+                    </div>
+                    <div class="datos-personales">
+                        <label for="descripcion">Descripcion</label>
+                        <input style="width: 695px; height: 100px;" type="text" id="descripcion">
+                    </div>
+                </div>
+                <p style="font-weight: bold; margin: 30px 0;">SELECCIONA EL PASTEL QUE DESEAS</p>
+                <div class="pasteles">
+                    <div>
+                        <label><input type="checkbox" id="cbox1" value="pastel1"> PASTEL CANASTA DE FRESAS <br><b>$414</b> </label><br>
+                        <label><input type="checkbox" id="cbox2" value="pastel2"> PASTEL CHOCOLATE CLARO <br><b>$250</b> </label><br>
+                    </div>
+                    <div>
+                        <label><input type="checkbox" id="cbox3" value="pastel3"> PASTEL 3 LECHES COMBINADO <br><b>$360</b> </label><br>
+                        <label><input type="checkbox" id="cbox4" value="pastel4"> PASTEL DIPLOMATICO <br><b>$294</b> </label><br>
+                    </div>
+                    <div>
+                        <label><input type="checkbox" id="cbox5" value="pastel5"> CHEESECAKE CON FRESAS <br><b>$391</b> </label><br>
+                        <label><input type="checkbox" id="cbox6" value="pastel6"> CHEESECAKE TORTUGA <br><b>$360</b> </label><br>
+                    </div>
+                </div>
+                <p style="font-weight: bold; margin: 30px 0;">O ARMA TU PASATEL A TU GUSTO</p>
+                <div class="pastel-personalizado">
+                    <div>
+                        <p>Selecciona el tipo de pastel:</p>
+                        <label><input type="checkbox" id="cbox7" value="pastel1"> TRES LECHES <br><b>$200</b></label><br>
+                        <label><input type="checkbox" id="cbox8" value="pastel2"> CHEESECAKE <br><b>$250</b></label><br>
+                    </div>
+                    <div>
+                        <p>Selecciona los ingredientes:</p>
+                        <label><input type="checkbox" id="cbox9" value="ingredientes1"> CHOCOLATE <br><b>$100</b></label><br>
+                        <label><input type="checkbox" id="cbox10" value="ingredientes2"> NUEZ <br><b>$100</b></label><br>
+                        <label><input type="checkbox" id="cbox11" value="ingredientes3"> FRESAS <br><b>$100</b></label><br>
+                        <label><input type="checkbox" id="cbox12" value="ingredientes4"> MANGO <br><b>$100</b></label><br>
+                        <label><input type="checkbox" id="cbox13" value="ingredientes5"> CAJETA <br><b>$100</b></label><br>
+                        <label><input type="checkbox" id="cbox14" value="ingredientes6"> FLAN <br><b>$100</b></label><br>
+                        <label><input type="checkbox" id="cbox15" value="ingredientes7"> CHOCOLATE CLARO <br><b>$100</b></label><br>
+                    </div>
+                    <div>
+                        <p>Selecciona algun adorno:</p>
+                        <label><input type="checkbox" id="cbox16" value="adorno1"> VELAS <br><b>$50</b></label><br>
+                        <label><input type="checkbox" id="cbox17" value="adorno2"> NOMBRE DEL CUMPLEAÑER@ <br><b>$100</b></label><br>
+                        <label><input type="checkbox" id="cbox18" value="adorno3"> LETRERO DE FELICITACIÓN <br><b>$100</b></label><br>
+                        <label><input type="checkbox" id="cbox19" value="adorno4"> IMAGEN DE PERSONAJE FAVORITO <br><b>$120</b></label><br>
+
+                    </div>
+                </div>
+                <button class="btn-enviar" name="boton"><b>Enviar</b></button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedor">
+            <div>
+                <p style="font-weight: 600; font-size: 20px;">Contactanos</p>
+                <div class="contactos">
+                    <p><i>Telefono:</i><u> (81) 24 45 35 94</u></p>
+                    <p><i>Instagram:</i><u> @pastelmaniaoficial</u></p>
+                    <p><i>Dirección:</i><u> Av. Lincoln #679, Mitras Poniente, <br>García, Nuevo León</u></p>
+                </div>
+            </div>
+            <div class="mensajefinal">
+                <p>PastelMania todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
